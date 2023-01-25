@@ -6,8 +6,11 @@ Using an [ec2 instance](https://aws.amazon.com/fr/ec2/) (to speed up the sentime
 
 Then, with the spam tweets gone, I began the sentiment analysis with this pre-trained [model](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest), 
 ## Results
+### Bar plot of number of tweets by sentiment over time
 ![alt text](./plots_amazon/barplot_per_year.png)
+### Sentiment distribution
 ![alt text](plots_amazon/sentiment_distribution.png)
+### Wordclouds
 ![alt text](plots_amazon/n_wordcloud.png)
 ![alt text](plots_amazon/p_wordcloud.png)
 
