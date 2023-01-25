@@ -1,6 +1,6 @@
 # Amazon delivery sentiment analysis
 ## Requirements
-[AWS account](https://aws.amazon.com/fr/) (or it'll take long time).
+You may want an [AWS account](https://aws.amazon.com/fr/) or any other cloud provider, if you want to scrape, analyze tweets by yourself (or it'll take long time).
 
 run this from your working directory to install required libraries/packages : 
 ```bash
