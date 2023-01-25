@@ -13,3 +13,5 @@ Then, with the spam tweets gone, I began the sentiment analysis with this pre-tr
 
 ## What to conclude from that ?
 
+Note that I am not a data scientist or analyst, I am just a student who loves trying things out.
+From these results, we can see that, the part of negative tweets increase significantly over the yearsgit 
