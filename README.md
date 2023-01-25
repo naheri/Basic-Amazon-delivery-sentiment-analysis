@@ -22,5 +22,5 @@ Then, with the spam tweets gone, I began the sentiment analysis with this pre-tr
 ## What to conclude from that ?
 
 ### Note that I am not a data scientist or analyst, I am just a student who loves trying things out.
-From these results, we can see that, the part of negative tweets increase significantly over the years, and the part of positive tweets is decreasing since 2017.
-Though it is not enough to make conclusions, this gap between number of positive/negative tweets could be explained with many things, the spam and sentiment classification algorithm for example. We could say that the general opinion seems to get worse and worse over time. Nevertheless, rare are the persons who tweet nice things on Twitter, it is more likely to see bad things there 😂.
+From these results, we can see that, the part of negative tweets increase significantly over the years, and the part of positive tweets is decreasing since 2017. We could say that the general opinion seems to get worse and worse over time. But these statistics could be biased due to spam/sentiment prediction algorithm, it is not enough to make serious conclusions.
+Moreover, rare are the persons who tweet nice things on Twitter, it is more likely to see people complaining about the delivery than seeing people praising Amazon for their fast delivery, it is the human nature.
