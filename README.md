@@ -1,6 +1,6 @@
 # Amazon delivery sentiment analysis
 ## Requirements
-[AWS account](https://aws.amazon.com/fr/).
+[AWS account](https://aws.amazon.com/fr/) (or it'll take long time).
 
 run from your working directory : 
 ```bash
