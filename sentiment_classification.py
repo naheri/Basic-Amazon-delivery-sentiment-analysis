@@ -5,8 +5,6 @@ from transformers import AutoTokenizer, AutoConfig
 import numpy as np
 import pandas as pd
 from scipy.special import softmax
-import csv
-import urllib.request
 from config import *
 
 # Preprocess text (username and link placeholders)
