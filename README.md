@@ -14,6 +14,9 @@ Using an [ec2 instance](https://aws.amazon.com/fr/ec2/) (to speed up the sentime
  I used the [snscrape](https://github.com/JustAnotherArchivist/snscrape) library to scrape 5713 tweets (limit for me) from 2010 to 2020, I put them all in a [RDS database](https://aws.amazon.com/fr/rds/) and I pre-processed all these tweets (filter spam) using this pre-trained [model](https://huggingface.co/mrm8488/bert-tiny-finetuned-sms-spam-detection) (I know it's an SMS and not tweets spam detector but I ran a lot of tests and it turned out to be the more accurate).
 
 Then, with the spam tweets gone, I began the sentiment analysis with this pre-trained [model](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest), 
+
+I used an [S3 bucket](https://aws.amazon.com/fr/s3/) to transfer all the files from the EC2 instance to my local machine.
+
 ## Results
 ### Bar plot of number of tweets by sentiment over time
 ![alt text](./images/barplot_per_year.png)
